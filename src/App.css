@@ -55,6 +55,6 @@ body {
     text-align: center;
 }
 
-.centered_slider .slick-center img {
+.centered_slider .slick-center iframe {
     transform: scale(1.3);
 }
