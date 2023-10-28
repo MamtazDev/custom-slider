@@ -1,0 +1,21 @@
+
+body{
+    background-color: darkblue;
+}
+
+h1{
+    color: white;
+}
+.centered_slider img{
+    height: 300px;
+    width: 290px;
+    margin: 10px;
+}
+.multiRows_slider img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+.centered_slider .slick-center img {
+    transform: scale(1.3); 
+  }
