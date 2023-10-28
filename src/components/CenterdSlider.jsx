@@ -1,109 +1,30 @@
 import React from "react";
 import Slider from "react-slick";
-
+import CenterdVideoSlider from "./centerdSlider/CenterdVideoSlider";
 
 const CenterdSlider = () => {
-    const settings = {
-        className: "center",
-        dots:true,
-        centerMode: true,
-        infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
-        // autoplay: true,
-        speed: 2000,
-        // autoplaySpeed: 2000,
-      
-      };
+  const settings = {
+    className: "center",
+    dots: true,
+    centerMode: true,
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: 3,
+    // autoplay: true,
+    speed: 2000,
+    // autoplaySpeed: 2000,
+  };
   return (
     <div className="centered_slider mb-5">
       <div className="container">
         <h1 className="text-center mb-5">Centered Slider</h1>
         <Slider {...settings}>
-          <div>
-            <img
-            
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhA2KE6qS9Y99iWluRa1v6nSK-s_DsC0K7BHYlM7Voy2HxNAJkOCw4m1eSXK2703YIVe0&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-         
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS9NukLm-cNqH5x3U2iS2wMOIgK5XPLIZcnIENesYVGWAPpPsCiD_6RjftwG5gQp5sM4w&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-            
-              src="https://imgv3.fotor.com/images/cover-photo-image/a-beautiful-girl-with-gray-hair-and-lucxy-neckless-generated-by-Fotor-AI.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-             
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpnHw7ICbtigLKFmeh17bPpZr-cFIMWfpE2YIqeUzQnByxNvmqO34Gdi4U-kv5QEhtYRA&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-         
-              src="https://assets.website-files.com/619e8d2e8bd4838a9340a810/647cacb5754581b4b3558593_background-remover-hero-image-comp.webp"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-        
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTije25_4V3n8BBQhSsXZZo3YNEV3xe7Ymwe0J4RPXlQ979dYa3-0DMCdWjb4GaFWZLVGE&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-             
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpnHw7ICbtigLKFmeh17bPpZr-cFIMWfpE2YIqeUzQnByxNvmqO34Gdi4U-kv5QEhtYRA&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-         
-              src="https://assets.website-files.com/619e8d2e8bd4838a9340a810/647cacb5754581b4b3558593_background-remover-hero-image-comp.webp"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-        
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTije25_4V3n8BBQhSsXZZo3YNEV3xe7Ymwe0J4RPXlQ979dYa3-0DMCdWjb4GaFWZLVGE&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-             
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpnHw7ICbtigLKFmeh17bPpZr-cFIMWfpE2YIqeUzQnByxNvmqO34Gdi4U-kv5QEhtYRA&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-         
-              src="https://assets.website-files.com/619e8d2e8bd4838a9340a810/647cacb5754581b4b3558593_background-remover-hero-image-comp.webp"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-        
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTije25_4V3n8BBQhSsXZZo3YNEV3xe7Ymwe0J4RPXlQ979dYa3-0DMCdWjb4GaFWZLVGE&usqp=CAU"
-              alt=""
-            />
-          </div>
+          <CenterdVideoSlider videSrc={'https://www.youtube.com/embed/CSHOiUYHD9k?si=9-8U88msnqR7m_OS'} />
+          <CenterdVideoSlider videSrc={'https://www.youtube.com/embed/Cv2H3nFk4As?si=szWTpGUv8WPsiSwd'} />
+          <CenterdVideoSlider videSrc={'https://www.youtube.com/embed/t5tAsV2YESo?si=WKQilG0AUWEf1kvg'} />
+          <CenterdVideoSlider videSrc={'https://www.youtube.com/embed/yIv5VJeROl8?si=eWxMZt2lPKA1bHa5'} />
+          <CenterdVideoSlider videSrc={'https://www.youtube.com/embed/AwrZoNgM6HU?si=aStCONkwOX1y9JCW'} />
+          <CenterdVideoSlider videSrc={'https://www.youtube.com/embed/gjqMIQyKK7k?si=o8bTL3SdSSn5jfMc'} />
         </Slider>
       </div>
     </div>
