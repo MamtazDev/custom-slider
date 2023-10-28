@@ -68,7 +68,7 @@ const Multislider = () => {
   return (
     <div className="multi_slider">
       <div className="container">
-        <h1>Multi Slider</h1>
+        <h1 className="text-center my-5">Multi Slider</h1>
         <Slider {...settings}>
           {pictures.map((data, index) => (
             <div className={index%2 == 0 ? "top" : "bottom"} key={index}>

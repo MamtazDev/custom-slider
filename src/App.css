@@ -1,9 +1,17 @@
 body {
-    background-color: darkblue;
+    background-color: #fcfcfc;
 }
 
-h1 {
-    color: white;
+.slick-prev,
+.slick-next {
+    z-index: 9999;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #db3753 !important;
+    opacity: 100 !important;
+    font-size: 3rem !important;
 }
 
 .centered_slider img {
@@ -21,6 +29,20 @@ h1 {
 .multi_slider img {
     height: 550px;
     width: 90%;
+}
+
+.multi_slider .slick-prev,
+.multi_slider .slick-next {
+    bottom: 0 !important;
+    top: unset !important;
+}
+
+.multi_slider .slick-prev {
+    left: 0 !important;
+}
+
+.multi_slider .slick-next {
+    right: 0 !important;
 }
 
 .top {
