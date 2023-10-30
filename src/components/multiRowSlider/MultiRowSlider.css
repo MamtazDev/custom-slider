@@ -1,0 +1,15 @@
+.multi_row_slider_wrapper .mrs_content .name_des h3 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.multi_row_slider_wrapper .mrs_content .name_des p {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1c1c1c;
+}
+
+
+.multi_row_slider_wrapper .address .location p{
+    color: #6d7c88;
+}
