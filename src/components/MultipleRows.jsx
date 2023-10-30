@@ -16,6 +16,8 @@ const MultipleRows = () => {
   // };
   const settings = {
     className: "center",
+    arrows:false,
+    dots:true,
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
