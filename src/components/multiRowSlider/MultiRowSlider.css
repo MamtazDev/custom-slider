@@ -1,5 +1,14 @@
+.equal_height {
+    height: 266px;
+}
+
+.multi_row_slider_wrapper {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
 .multi_row_slider_wrapper .mrs_content .name_des h3 {
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -9,7 +18,10 @@
     color: #1c1c1c;
 }
 
-
-.multi_row_slider_wrapper .address .location p{
-    color: #6d7c88;
+.multi_row_slider_wrapper .link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #db3753;
 }
