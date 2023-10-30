@@ -32,7 +32,7 @@ const Multislider = () => {
 
   ];
   var settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -71,7 +71,7 @@ const Multislider = () => {
         <h1 className="text-center my-5">Multi Slider</h1>
         <Slider {...settings}>
           {pictures.map((data, index) => (
-            <div className={index%2 == 0 ? "top" : "bottom"} key={index}>
+            <div className={index % 2 == 0 ? "top" : "bottom"} key={index}>
               <img className="img-fluid" src={data} alt="" />
             </div>
           ))}
