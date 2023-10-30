@@ -13,7 +13,9 @@ body {
 }
 
 .custom_slidr .slick-prev:before,
-.custom_slidr .slick-next:before {
+.custom_slidr .slick-next:before,
+.multi_slider .slick-prev:before,
+.multi_slider .slick-next:before{
     color: #db3753 !important;
     opacity: 100 !important;
     font-size: 3rem !important;
