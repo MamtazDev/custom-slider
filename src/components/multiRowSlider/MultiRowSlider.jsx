@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const MultiRowSlider = ({ name, des, location, cdi, pointsTitle, pointOne, pointTwo, pointThree, pointFour, link }) => {
     return (
-        <div className='multi_row_slider_wrapper mb-4 me-4'>
+        <div className='multi_row_slider_wrapper me-4'>
             <div className='equal_height'>
                 <div className="mrs_content">
                     <div className="name_des mb-2">

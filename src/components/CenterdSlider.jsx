@@ -14,7 +14,7 @@ const CenterdSlider = () => {
 
   };
   return (
-    <div className="centered_slider my-5">
+    <div className="centered_slider">
       <div className="container">
         <h1 className="text-center mb-5">Centered Slider</h1>
         <Slider {...settings}>

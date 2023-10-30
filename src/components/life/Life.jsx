@@ -52,7 +52,7 @@ const Life = () => {
     };
 
     return (
-        <div className='my-5 custom_slidr'>
+        <div className='custom_slidr'>
             <div className='container'>
                 <h1 className='text-center mb-5'>Custom Slider</h1>
                 <Slider {...settings}>
