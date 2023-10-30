@@ -5,14 +5,13 @@ import CenterdVideoSlider from "./centerdSlider/CenterdVideoSlider";
 const CenterdSlider = () => {
   const settings = {
     className: "center",
-    dots: true,
+    dots: false,
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
-    // autoplay: true,
     speed: 2000,
-    // autoplaySpeed: 2000,
+
   };
   return (
     <div className="centered_slider my-5">

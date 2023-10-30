@@ -1,19 +1,8 @@
-import React from 'react';
-import Slider from 'react-slick';
-import MultiRowSlider from './multiRowSlider/MultiRowSlider';
+import React from "react";
+import Slider from "react-slick";
+import MultiRowSlider from "./multiRowSlider/MultiRowSlider";
 
 const MultipleRows = () => {
-  // const settings = {
-  //   className: "center",
-  //   dots: true,
-  //   centerMode: true,
-  //   infinite: true,
-  //   centerPadding: "60px",
-  //   slidesToShow: 3,
-  //   speed: 500,
-  //   rows: 2,
-  //   slidesPerRow: 2
-  // };
   const settings = {
     className: "center",
     arrows: true,
