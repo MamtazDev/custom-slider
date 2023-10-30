@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import MultiRowSlider from "./multiRowSlider/MultiRowSlider";
 
 const MultipleRows = () => {
+
   const settings = {
     className: "center",
     arrows: true,
@@ -41,6 +42,7 @@ const MultipleRows = () => {
       </div>
     ),
   };
+
   return (
     <div className="multiRows_slider">
       <div className="container">
@@ -176,7 +178,7 @@ const MultipleRows = () => {
             pointFour={""}
             link={"#"}
           />
-          
+
         </Slider>
       </div>
     </div>

@@ -24,12 +24,9 @@
 }
 
 .custom_slidr .slick-dots li button:before {
-    /* background-color: black;
-    width: 20px;
-    height: 20px; */
     border-radius: 50%;
     line-height: 22px;
-    font-size: 14px;
+    font-size: 8px;
     opacity: 100;
     top: -1px;
 }
@@ -83,4 +80,36 @@
 .custom_slidr .slick-next:before {
     color: #db3753;
     font-size: 30px;
+}
+
+.custom-arrows button {
+    font-family: unset;
+    font-size: unset;
+    width: 38px;
+    border-radius: 50%;
+    border: 0;
+    background-color: transparent;
+}
+
+.custom-arrows .leftArrow {
+    left: 13%;
+    top: 50%;
+}
+
+.custom-arrows .rightArrow {
+    right: 13%;
+    top: 50%;
+}
+
+
+
+.custom-arrows .sliderArrowActive svg {
+    fill: #db3753;
+    color: white;
+}
+
+.custom-arrows .sliderArrowDisable svg {
+    /* background-color: #db375294; */
+    color: white;
+    fill: #db375279;
 }
