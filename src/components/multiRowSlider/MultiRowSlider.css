@@ -47,11 +47,16 @@
 
 .multiRows_slider .slick-prev::before {
     font-size: 1rem !important;
+    color: #db3753;
 }
 
+.multiRows_slider .slick-dots{
+    left: -30px;
+}
 
 .multiRows_slider .slick-next::before {
     font-size: 1rem !important;
+    color: #db3753;
 }
 
 .multiRows_slider .slick-prev,

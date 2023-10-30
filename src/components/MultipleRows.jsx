@@ -46,6 +46,7 @@ const MultipleRows = () => {
       <div className="container">
         <h1 className="text-center mb-5">Multiple Rows Slider</h1>
         <Slider {...settings}>
+
           <MultiRowSlider
             name={"Data Engineer"}
             des={"Team Engineering"}
@@ -175,6 +176,7 @@ const MultipleRows = () => {
             pointFour={""}
             link={"#"}
           />
+          
         </Slider>
       </div>
     </div>
