@@ -15,7 +15,7 @@ const CenterdSlider = () => {
     // autoplaySpeed: 2000,
   };
   return (
-    <div className="centered_slider mb-5">
+    <div className="centered_slider my-5">
       <div className="container">
         <h1 className="text-center mb-5">Centered Slider</h1>
         <Slider {...settings}>
