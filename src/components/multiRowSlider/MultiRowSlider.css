@@ -38,7 +38,7 @@
 
 .multiRows_slider .slick-prev {
     bottom: -25px;
-    left: 40%;
+    left: 44%;
 }
 
 .multiRows_slider .slick-next {
@@ -47,11 +47,13 @@
 
 .multiRows_slider .slick-prev::before {
     font-size: 1rem !important;
+    color: black;
 }
 
 
 .multiRows_slider .slick-next::before {
     font-size: 1rem !important;
+    color: black;
 }
 
 .multiRows_slider .slick-prev,

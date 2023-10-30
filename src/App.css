@@ -6,7 +6,9 @@ body {
 .slick-next {
     z-index: 9999;
 }
-
+.custom_slidr{
+    padding-bottom: 200px;
+}
 .custom_slidr .slick-prev:before,
 .custom_slidr .slick-next:before {
     color: #db3753 !important;
@@ -65,7 +67,7 @@ body {
 
 .centered_slider .slick-prev:before {
     content: "‹";
-    color: blue;
+    color: #007aff;
     font-size: 80px;
     left: 30px;
     line-height: 0;
@@ -74,7 +76,7 @@ body {
 
 .centered_slider .slick-next:before {
     content: "›";
-    color: blue;
+    color: #007aff;
     font-size: 80px;
     right: 30px;
     line-height: 0;
