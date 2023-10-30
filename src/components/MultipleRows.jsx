@@ -16,15 +16,41 @@ const MultipleRows = () => {
   // };
   const settings = {
     className: "center",
-    arrows:false,
-    dots:true,
+    arrows: true,
+    dots: true,
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
     speed: 500,
     rows: 1,
-    slidesPerRow: 2
+    slidesPerRow: 2,
+    appendDots: (dots) => (
+      <div
+        style={{
+          borderRadius: "10px",
+          padding: "10px",
+        }}
+      >
+        <ul style={{ margin: "0px" }}>
+          {dots.map((dot, index) => (
+            <li key={index} className={index === settings.current ? "active-dot" : ""}>
+              {dot}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+        style={{
+          width: "30px",
+          color: '#a4a4a4',
+        }}
+      >
+        {i + 1}
+      </div>
+    ),
   };
   return (
     <div className="multiRows_slider">

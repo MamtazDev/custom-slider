@@ -25,3 +25,37 @@
     gap: 10px;
     color: #db3753;
 }
+
+.active-dot {
+    background-color: #ff0000;
+    /* Change to your desired color for active dots */
+    width: 30px;
+    /* Adjust the width as needed */
+    color: #531616;
+    /* Change the text color of active dots if needed */
+}
+
+
+.multiRows_slider .slick-prev {
+    bottom: -25px;
+    left: 40%;
+}
+
+.multiRows_slider .slick-next {
+    right: 40%;
+}
+
+.multiRows_slider .slick-prev::before {
+    font-size: 1rem !important;
+}
+
+
+.multiRows_slider .slick-next::before {
+    font-size: 1rem !important;
+}
+
+.multiRows_slider .slick-prev,
+.multiRows_slider .slick-next {
+    bottom: -25px !important;
+    top: unset !important;
+}
