@@ -11,12 +11,11 @@ const MultipleRows = () => {
     arrows: true,
     dots: true,
     centerMode: true,
-    // infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
+    slidesPerRow: 2,
     speed: 500,
     rows: 1,
-    slidesPerRow: 2,
     beforeChange: (oldIndex, newIndex) => {
       setCurrentSlide(newIndex);
     },

@@ -101,14 +101,6 @@ body {
     line-height: 0;
 }
 
-/* .centered_slider .slick-next:before {
-    content: "›";
-    color: #007aff;
-    font-size: 80px;
-    right: 30px;
-    line-height: 0;
-} */
-
 .centered_slider .swiper-button-prev {
     position: absolute;
     top: 50%;
@@ -184,12 +176,9 @@ body {
     fill: black !important;
 }
 
-
 .multiRows_slider .sliderArrowDisable svg {
     fill: black !important;
 }
-
-
 
 .multi_slider .custom-next-arrow {
     position: absolute;
