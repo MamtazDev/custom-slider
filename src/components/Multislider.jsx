@@ -136,6 +136,7 @@ const Multislider = () => {
           dots: true,
         },
       },
+
       {
         breakpoint: 600,
         settings: {
@@ -144,6 +145,7 @@ const Multislider = () => {
           initialSlide: 2,
         },
       },
+
       {
         breakpoint: 480,
         settings: {
@@ -153,12 +155,12 @@ const Multislider = () => {
       },
     ],
   };
-
+  
   // Custom arrow component for the "Previous" button
   function CustomPrevArrow(props) {
     const { currentSlide } = props;
     if (currentSlide === 0) {
-      return null; // Hide the "Previous" arrow on the first slide
+      return null;
     }
     return (
       <button {...props} className="slick-arrow custom-prev-arrow border-0">

@@ -186,7 +186,7 @@ body {
 
 
 .multiRows_slider .sliderArrowDisable svg {
-    fill: rgba(0, 0, 0, 0.377) !important;
+    fill: black !important;
 }
 
 

@@ -11,7 +11,7 @@ const MultipleRows = () => {
     arrows: true,
     dots: true,
     centerMode: true,
-    infinite: true,
+    // infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
     speed: 500,
