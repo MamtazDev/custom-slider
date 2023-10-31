@@ -9,7 +9,7 @@ const LifeSlider = ({ sliderImg, h3, p }) => {
                 <div className="slider_img">
                     <img src={sliderImg} alt="slider-img" />
                 </div>
-
+                    
             </div>
             <div className="col-lg-6 text-white">
                 <div className="slider_text">
