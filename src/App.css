@@ -78,66 +78,6 @@ body {
     text-align: center;
 }
 
-.centered_slider iframe {
-    /* margin: 20px; */
-    height: 370px;
-    /*
-} */
-}
-
-.centered_slider .swiper-slide {
-    width: 562px !important;
-}
-
-.centered_slider .slick-center iframe {
-    transform: scale(1.3);
-}
-
-.centered_slider .slick-prev:before {
-    content: "‹";
-    color: #007aff;
-    font-size: 80px;
-    left: 30px;
-    line-height: 0;
-}
-
-.centered_slider .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    left: 21px;
-    z-index: 10;
-    cursor: pointer;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color));
-}
-
-.centered_slider .swiper-button-prev::after {
-    content: "prev";
-    font-family: swiper-icons;
-    font-size: 44px;
-    text-transform: none !important;
-    letter-spacing: 0;
-    font-variant: normal;
-    line-height: 1;
-}
-
-.centered_slider .swiper-button-next {
-    position: absolute;
-    top: 50%;
-    right: 21px;
-    z-index: 999;
-    cursor: pointer;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color));
-}
-
-.centered_slider .swiper-button-next::after {
-    content: "next";
-    font-family: swiper-icons;
-    font-size: 44px;
-    text-transform: none !important;
-    letter-spacing: 0;
-    font-variant: normal;
-    line-height: 1;
-}
 
 .multi_slider .custom-next-arrow {
     position: absolute;
@@ -182,9 +122,62 @@ body {
     font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
     bottom: -1845%;
+}
+
+
+/* Custom CSS */
+/* .slick-center {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in;
+
+} */
+/* Custom CSS */
+.slick-slide {
+    transition: transform 0.3s ease-in-out;
+}
+
+.slick-center {
+    transform: scale(1.1);
+    /* Increase the size of the center slide */
+    transition: transform 0.3s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+.centered_slider .slick-prev:before {
+    content: "‹";
+    color: #007aff;
+    font-size: 80px;
+    left: 30px;
+    line-height: 0;
+}
+
+.centered_slider .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 21px;
+    z-index: 10;
+    cursor: pointer;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.centered_slider .slick-next:before {
+    content: "‹";
+    color: #007aff;
+    font-size: 80px;
+    right: 30px;
+    line-height: 0;
+}
+
+.centered_slider .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: 21px;
+    z-index: 10;
+    cursor: pointer;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }

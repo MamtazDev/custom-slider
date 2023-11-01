@@ -9,10 +9,10 @@ import Life from "./components/life/Life";
 function App() {
   return (
     <div>
-      <Life/>
+      <Life />
       <CenterdSlider />
       <MultipleRows />
-      <Multislider/>
+      <Multislider />
     </div>
   );
 }
