@@ -129,13 +129,6 @@ body {
     bottom: -1845%;
 }
 
-
-/* Custom CSS */
-/* .slick-center {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in;
-
-} */
 /* Custom CSS */
 .slick-slide {
     transition: transform 0.3s ease-in-out;
@@ -143,9 +136,7 @@ body {
 
 .slick-center {
     transform: scale(1.1);
-    /* Increase the size of the center slide */
     transition: transform 0.3s ease-in-out;
-    /* Add a smooth transition effect */
 }
 
 
@@ -165,11 +156,11 @@ body {
     line-height: 0;
 }
 
-.centered_slider .slick-next{
+.centered_slider .slick-next {
     right: 23px !important;
 }
 
-.centered_slider .slick-prev{
+.centered_slider .slick-prev {
     left: -18px !important;
 }
 
@@ -187,4 +178,15 @@ body {
     right: 21px;
     z-index: 10;
     cursor: pointer;
+}
+
+
+.mySwiper .swiper-slide {
+    width: 662px !important;
+
+}
+
+.mySwiper .swiper-3d .swiper-slide-shadow-left {
+    background-image: none !important;
+
 }
