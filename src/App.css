@@ -148,13 +148,6 @@ body {
     /* Add a smooth transition effect */
 }
 
-.centered_slider .slick-prev:before {
-    content: "‹";
-    color: #007aff;
-    font-size: 80px;
-    left: 30px;
-    line-height: 0;
-}
 
 .centered_slider .swiper-button-prev {
     position: absolute;
@@ -162,11 +155,26 @@ body {
     left: 21px;
     z-index: 10;
     cursor: pointer;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.centered_slider .slick-prev:before {
+    content: url(../src/assets/prev_arrow.png);
+    color: #007aff;
+    font-size: 80px;
+    left: 30px;
+    line-height: 0;
+}
+
+.centered_slider .slick-next{
+    right: 23px !important;
+}
+
+.centered_slider .slick-prev{
+    left: -18px !important;
 }
 
 .centered_slider .slick-next:before {
-    content: "‹";
+    content: url(../src/assets/right_arrow.png);
     color: #007aff;
     font-size: 80px;
     right: 30px;
@@ -179,5 +187,4 @@ body {
     right: 21px;
     z-index: 10;
     cursor: pointer;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }

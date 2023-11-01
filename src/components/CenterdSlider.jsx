@@ -40,7 +40,7 @@ const CenterdSlider = () => {
     useCss: true,
     speed: 250,
     easing: 'linear',
-    adaptiveHeight: true
+    // adaptiveHeight: true
   };
 
   return (
